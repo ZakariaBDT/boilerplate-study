@@ -1,0 +1,1 @@
+wp.hooks.addFilter("blocks.registerBlockType","my-plugin/my-block",((l,o)=>("boilerplate/test"===o&&(console.log(l),l.supports={...l.supports,align:["wide","full"]}),l))),wp.hooks.addFilter("blocks.registerBlockType","my-plugin/my-block",((l,o)=>("boilerplate/bootstrap"===o&&(console.log(l),l.supports={...l.supports,align:["wide","full"]}),l)));
